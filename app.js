@@ -5,6 +5,9 @@ import { Block } from "./blockchain/block/block";
 import express from "express";
 import routes from "./api/routes";
 import cors from "cors";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
